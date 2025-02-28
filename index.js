@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/AroundMeSale")
+  .connect("mongodb+srv://shubhchinu43:root123@cluster0.wqs3p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
